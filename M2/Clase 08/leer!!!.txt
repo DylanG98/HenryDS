@@ -1,0 +1,3 @@
+el archivo "conect.py" es el que sirver
+para hacer polimorfismo  con programacion orientada a objetos
+el archivo "solution.py" es la resolucion de la homework 
