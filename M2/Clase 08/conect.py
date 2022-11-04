@@ -14,7 +14,7 @@ class conexion:
                         }
         
         conect1 = None
-        conect1 = mysql.connector.connect(**credencial)
+        conect1 = mysql.connector.connect(**credencial) #pasa múltiples variables el **
         return conect1
     
     def execute(self, base, query):
@@ -40,4 +40,5 @@ class conexion:
         cone.close()
 
 
-    
+###### Hay que solucionar el commit automatico, xq no da lugar al error mío
+###### Crear función con executemany para no usar el iterrows()

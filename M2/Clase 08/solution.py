@@ -30,7 +30,7 @@ for index, row in df.iterrows():
 
         conect_db.execute_agregar(db, query2,(row.id, row.nombre, row.categoria, row.direccion_completa, row.barrio, row.comuna))
 
-conect_db.commit_d()
+
 
         
 
